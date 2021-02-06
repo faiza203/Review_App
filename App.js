@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 
 export default function App() {
-  return <View>Review App</View>;
+  return <View style={styles.container}>Review App</View>;
 }
 
 const styles = StyleSheet.create({

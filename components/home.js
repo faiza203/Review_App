@@ -15,5 +15,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: "nunito-bold",
+    fontSize: 18,
+    fontStyle : "oblique",
   },
 });

@@ -1,6 +1,7 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { View, Text } from "react-native";
 
+import styles from "../styles/global";
 export default function Home() {
   return (
     <View style={styles.container}>
@@ -8,14 +9,3 @@ export default function Home() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    padding: 24,
-  },
-  title: {
-    fontFamily: "nunito-bold",
-    fontSize: 18,
-    fontStyle : "oblique",
-  },
-});

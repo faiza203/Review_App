@@ -1,11 +1,16 @@
 import { createStackNavigator } from 'react-navigation-stack'
 import { createAppContainer } from 'react-navigation';
-import Home from './screens/home'
+import Home from '../components/home'
+import ReviewDetails from '../components/reviewDetails'
 
 const screens = {
     Home: {
         screen: Home
+    }, ReviewDetails: {
+        screen: ReviewDetails
     }
 }
 
-const homeStack = createStackNavigator(screens)
+const HomeStack = createStackNavigator(screens)
+
+export default createAppContainer(HomeStack)

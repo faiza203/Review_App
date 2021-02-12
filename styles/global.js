@@ -1,8 +1,12 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+  body: {
+    height: '100vh'
+  },
   container: {
     padding: 24,
+    backgroundColor: 'red',
   },
   title: {
     fontFamily: "nunito-bold",

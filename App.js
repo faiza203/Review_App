@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import * as Font from "expo-font";
-import Home from "./components/home";
 import { AppLoading } from "expo";
 import Navigator from './routes/homeStack'
+import globalStyles from './styles/global'
 
 const getFonts = () =>
   Font.loadAsync({
@@ -12,7 +12,7 @@ const getFonts = () =>
 export default function App() {
   const [fontsLoaded, setFontsLoaded] = useState(false);
   if (fontsLoaded) {
-    return <Navigator />;
+    return <Navigator style={globalStyles.body} />;
   } else {
     return (
       <AppLoading

@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   body: {
-    height: '100vh'
+    height: "100vh",
   },
   container: {
     padding: 24,

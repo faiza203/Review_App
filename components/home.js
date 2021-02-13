@@ -10,19 +10,20 @@ export default function Home({ navigation }) {
     { title: "Alina", rating: 1, body: "student", key: "4" },
   ]);
 
-
   return (
     <View style={globalStyles.container}>
       <FlatList
         data={reviews}
-        renderItem={({item}) => {
-          <TouchableOpacity
-            onPress={() => {
-              navigation.navigate("reviewDetails");
-            }}
-          >
-            <Text style={globalStyles.title}>{item.title}</Text>
-          </TouchableOpacity>;
+        renderItem={({ item }) => {
+          return (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("ReviewDetails", item);
+              }}
+            >
+              <Text style={globalStyles.title}>{item.title}</Text>
+            </TouchableOpacity>
+          );
         }}
       />
     </View>

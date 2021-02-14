@@ -6,7 +6,8 @@ const screens = {
   Home: {
     screen: Home,
     navigationOptions: {
-      title: "❤Home",
+      title: "❤ Home",
+      headerTintColor: "red",
     },
   },
   ReviewDetails: {

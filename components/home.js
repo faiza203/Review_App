@@ -5,7 +5,6 @@ import globalStyles from "../styles/global";
 export default function Home({ navigation }) {
   const [reviews, setReviews] = useState([
     { title: "Faiza Fiaz", rating: 5, body: "student", key: "1" },
-    { title: "Hamza Fiaz", rating: 5, body: "student", key: "2" },
     { title: "Aliza", rating: 4, body: "student", key: "3" },
     { title: "Alina", rating: 1, body: "student", key: "4" },
   ]);

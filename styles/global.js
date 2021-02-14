@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
   },
   container: {
     padding: 24,
-    // backgroundColor: 'red',
   },
   title: {
     fontFamily: "nunito-bold",

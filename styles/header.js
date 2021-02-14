@@ -14,6 +14,10 @@ const HeaderStyle = StyleSheet.create({
     color: "#333",
     letterSpacing: "1",
   },
+  icon: {
+    position: "absolute",
+    left: 16,
+  },
 });
 
 export default HeaderStyle;

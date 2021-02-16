@@ -17,5 +17,14 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
 });
+export const images = {
+  rating: [
+    require("../assets/rating-1.png"),
+    require("../assets/rating-2.png"),
+    require("../assets/rating-3.png"),
+    require("../assets/rating-4.png"),
+    require("../assets/rating-5.png"),
+  ],
+};
 
 export default styles;

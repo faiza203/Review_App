@@ -16,10 +16,8 @@ const CardStyle = StyleSheet.create({
     marginVertical: 6,
   },
   cardContent: {
-    fontWeight: "bold",
-    fontSize: 20,
-    color: "#333",
-    letterSpacing: "1",
+    marginHorizontal: 18,
+    marginVertical: 10,
   },
 });
 

@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
   },
   container: {
     padding: 24,
-    // backgroundColor: 'red',
   },
   title: {
     fontFamily: "nunito-bold",
@@ -17,6 +16,12 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     lineHeight: 20,
   },
+  ratingHeart: {
+    color: "red",
+  },
 });
+export const images = {
+  rating: ["❤", "❤❤", "❤❤❤", "❤❤❤❤", "❤❤❤❤❤"],
+};
 
 export default styles;

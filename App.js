@@ -1,5 +1,5 @@
 import React from "react";
-import Navigator from "./routes/homeStack";
+import Navigator from "./routes/drawer";
 import globalStyles from "./styles/global";
 
 export default function App() {

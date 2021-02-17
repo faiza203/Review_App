@@ -1,25 +1,21 @@
 import React from "react";
 import { createStackNavigator } from "react-navigation-stack";
 
-import Home from "../components/home";
-import ReviewDetails from "../components/reviewDetails";
+import About from "../components/about";
 import Header from "../shared/header";
 
 const screens = {
-  Home: {
-    screen: Home,
-    navigationOptions: ({ navigation }) => {
+  About: {
+    screen: About,
+    navigationOptions: ({navigation}) => {
       return {
         headerTitle: () => <Header navigation={navigation}/>,
       };
     },
   },
-  ReviewDetails: {
-    screen: ReviewDetails,
-  },
 };
 
-const HomeStack = createStackNavigator(screens, {
+const AboutStack = createStackNavigator(screens, {
   defaultNavigationOptions: {
     headerTintColor: "#150e0e",
     headerStyle: {
@@ -29,4 +25,4 @@ const HomeStack = createStackNavigator(screens, {
   },
 });
 
-export default HomeStack;
+export default AboutStack;

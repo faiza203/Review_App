@@ -16,15 +16,12 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     lineHeight: 20,
   },
+  ratingHeart: {
+    color: "red",
+  },
 });
 export const images = {
-  rating: [
-    require("../assets/rating-1.png"),
-    require("../assets/rating-2.png"),
-    require("../assets/rating-3.png"),
-    require("../assets/rating-4.png"),
-    require("../assets/rating-5.png"),
-  ],
+  rating: ["❤", "❤❤", "❤❤❤", "❤❤❤❤", "❤❤❤❤❤"],
 };
 
 export default styles;

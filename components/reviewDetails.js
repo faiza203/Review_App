@@ -5,7 +5,7 @@ import Card from "../shared/card";
 
 export default function ReviewDetails({ navigation }) {
   const rating = navigation.getParam("rating") - 1;
-  console.log(images.rating[rating]);
+
   return (
     <View style={globalStyles.container}>
       <Card>

@@ -14,7 +14,7 @@ export default function Home({ navigation }) {
 
   return (
     <View style={globalStyles.container}>
-      <Modal visible={modalOpen} animationType="slide">
+      <Modal visible={modalOpen} transparent={false} animationType="slide">
         <View>
           <MaterialIcons
             name="close"
